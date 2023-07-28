@@ -2,12 +2,10 @@
 	"destination": "detailScreen",
 	"windowTitle": ":xliff:EditorConstantsEditor",
 	"windowMinWidth": 540,
-	"width": 626,
-	"height": 545,
 	"markerHeader": 3840,
-	"markerBody": -14336,
-	"markerBreak": 545,
-	"markerFooter": 545,
+	"markerBody": 3840,
+	"markerBreak": 3840,
+	"markerFooter": 3840,
 	"events": [
 		"onLoad",
 		"onMenuSelect",
@@ -394,7 +392,7 @@
 				},
 				"spinner": {
 					"type": "spinner",
-					"top": 88,
+					"top": 48,
 					"left": 367,
 					"width": 150,
 					"height": 175,
@@ -479,7 +477,7 @@
 			"objects": {
 				"group.item.name.label": {
 					"type": "text",
-					"top": 369,
+					"top": 249,
 					"left": 274,
 					"width": 55,
 					"height": 13,
@@ -495,7 +493,7 @@
 					"top": 40,
 					"left": 265,
 					"width": 360,
-					"height": 285,
+					"height": 165,
 					"visibility": "hidden",
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -516,7 +514,7 @@
 				},
 				"name.group.item.box": {
 					"type": "input",
-					"top": 369,
+					"top": 249,
 					"left": 340,
 					"width": 273,
 					"height": 13,
@@ -536,10 +534,10 @@
 				},
 				"value.item.box": {
 					"type": "input",
-					"top": 403,
+					"top": 283,
 					"left": 340,
 					"width": 273,
-					"height": 52,
+					"height": 32,
 					"visibility": "hidden",
 					"sizingX": "grow",
 					"sizingY": "move",
@@ -555,7 +553,7 @@
 				},
 				"value.item.label": {
 					"type": "text",
-					"top": 403,
+					"top": 283,
 					"left": 274,
 					"width": 55,
 					"height": 13,
@@ -568,7 +566,7 @@
 				},
 				"lst.parse.separator": {
 					"type": "line",
-					"top": 326,
+					"top": 206,
 					"left": 265,
 					"width": 361,
 					"visibility": "hidden",
@@ -578,7 +576,7 @@
 				},
 				"tittle.group.label": {
 					"type": "text",
-					"top": 333,
+					"top": 213,
 					"left": 269,
 					"width": 200,
 					"height": 13,
@@ -592,7 +590,7 @@
 				},
 				"tittle.item.label": {
 					"type": "text",
-					"top": 333,
+					"top": 213,
 					"left": 269,
 					"width": 200,
 					"height": 13,
@@ -606,7 +604,7 @@
 				},
 				"type.item.label": {
 					"type": "text",
-					"top": 471,
+					"top": 331,
 					"left": 274,
 					"width": 55,
 					"height": 13,
@@ -619,7 +617,7 @@
 				},
 				"type.item.popup": {
 					"type": "dropdown",
-					"top": 470,
+					"top": 330,
 					"left": 340,
 					"width": 118,
 					"height": 19,
@@ -638,6 +636,74 @@
 						"onClick",
 						"onDataChange"
 					]
+				},
+				"parameters_item_col": {
+					"type": "listbox",
+					"left": 282,
+					"top": 399,
+					"width": 331,
+					"height": 141,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"sizingX": "grow",
+					"sizingY": "move",
+					"listboxType": "collection",
+					"dataSource": "parameters_item_col",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.name",
+							"width": 171
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Header2"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.value"
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"text": "626  545",
+					"top": 585,
+					"left": 97,
+					"width": 131,
+					"height": 15
+				},
+				"platform.item.popup": {
+					"type": "button",
+					"text": "Include for",
+					"top": 330,
+					"left": 499,
+					"width": 114,
+					"height": 62,
+					"events": [
+						"onClick"
+					],
+					"style": "toolbar",
+					"icon": "/RESOURCES/Images/mac_win.png",
+					"popupPlacement": "linked",
+					"visibility": "hidden",
+					"method": "ObjectMethods/platform.item.popup.4dm",
+					"sizingY": "move",
+					"textPlacement": "top"
 				}
 			}
 		}
@@ -647,18 +713,40 @@
 		"defaultView": "Background",
 		"views": {
 			"Background": {},
-			"Vue 2": {},
-			"Vue 3": {},
-			"Vue 4": {},
-			"Vue 5": {},
-			"StatusBar": {},
+			"Vue 2": {
+				"visible": false
+			},
+			"Vue 3": {
+				"visible": false
+			},
+			"Vue 4": {
+				"visible": false
+			},
+			"Vue 5": {
+				"visible": false
+			},
+			"StatusBar": {
+				"visible": false
+			},
 			"Infos": {
+				"visible": false,
 				"objects": [
 					"b.constant.delete"
 				]
 			},
-			"Vue 8": {},
-			"Splitters": {}
+			"Vue 8": {
+				"visible": false
+			},
+			"Splitters": {
+				"visible": false
+			}
 		}
-	}
+	},
+	"geometryStamp": 89,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"width": 626,
+	"height": 545
 }

@@ -69,6 +69,7 @@ Case of
 		//______________________________________________________
 	: ($Txt_entryPoint="Run")
 		
+		var parameters_item_col : Collection
 		COMPILER_main
 		
 		EDITOR_Menus("install")

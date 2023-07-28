@@ -8,7 +8,7 @@ C_LONGINT:C283($Lon_currentFile; $Lon_fileID; $Lon_formEvent; $Lon_i; $Lon_ID; $
 C_LONGINT:C283($Lon_line; $Lon_menu; $Lon_timerEvent; $Lon_type; $Lon_value; $Lst_buffer)
 C_REAL:C285($Num_value)
 C_TEXT:C284($kTxt_decimalSeparator; $Txt_name; $Txt_Path; $Txt_type; $Txt_value)
-
+C_TEXT:C284($Txt_Platform; $kTxt_template)
 // ----------------------------------------------------
 // Initialisations
 $Lon_formEvent:=Form event code:C388
@@ -232,6 +232,19 @@ Case of
 				OBJECT SET ENABLED:C1123(*; "b.constant.@"; $Lon_ID#0)
 				OBJECT SET ENABLED:C1123(*; "b.list.@"; Count list items:C380(<>Lst_constants)>0)
 				
+				
+				OBJECT SET VISIBLE:C603(*; "parameters_item_col"; $Lon_ID#0)
+				
+				ARRAY TEXT:C222($paramName_at; 0)
+				ARRAY TEXT:C222($paramValue_at; 0)
+				
+				GET LIST ITEM PARAMETER ARRAYS:C1195(<>Lst_constants; *; $paramName_at; $paramValue_at)
+				parameters_item_col:=New collection:C1472
+				ARRAY TO COLLECTION:C1563(parameters_item_col; $paramName_at; "name"; $paramValue_at; "value")
+				
+				
+				
+				
 				If ($Lon_ID>0)
 					
 					GET LIST ITEM PARAMETER:C985(<>Lst_constants; $Lon_ID; "type"; $Txt_type)
@@ -258,6 +271,21 @@ Case of
 							
 							//______________________________________________________
 					End case 
+					
+					
+					// Check platform
+					GET LIST ITEM PARAMETER:C985(<>Lst_constants; $Lon_ID; "d4:includeIf"; $Txt_Platform)
+					Case of 
+						: ($Txt_Platform="mac")
+							
+						: ($Txt_Platform="win")
+							
+						: (True:C214)
+							$Txt_Platform:="mac_win"
+					End case 
+					$kTxt_template:=";#images/{file}.png"
+					OBJECT SET FORMAT:C236(*; "platform.item.popup"; Replace string:C233($kTxt_template; "{file}"; $Txt_Platform))
+					
 					
 					obj_pointer("value.item.box")->:=$Txt_value
 					

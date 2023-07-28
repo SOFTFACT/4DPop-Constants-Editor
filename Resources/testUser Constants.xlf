@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+
+  
+
+  
+
+<!--
+
+    Created with 4DPop Constants Editor
+
+  -->
+
+  
+
+  <file datatype="x-4DK#" original="x-undefined" source-language="x-none" target-language="x-none">
+
+    
+
+    <header>
+
+      <prop-group name="4DPop Constant editor">
+
+        <prop prop-type="version">15 (18)</prop>
+
+      </prop-group>
+
+    </header>
+
+    
+
+    <body>
+
+      
+<!--groups' labels-->
+
+      <group resname="themes">
+        <trans-unit id="thm_1" resname="C4B4FA6D8D013043B8E233F2A0245B84" translate="no">
+          <source>MDS_Modules</source>
+        </trans-unit>
+        <trans-unit id="thm_2" resname="523DBF98AB00FC478D6E4DA3CC36E66B" translate="no">
+          <source>MDS_Area</source>
+        </trans-unit>
+        <trans-unit id="thm_3" resname="F6BCF7765C8A0E42AB28D47C5A22A733" translate="no">
+          <source>MDS_Center_Codes</source>
+        </trans-unit>
+        <trans-unit id="thm_4" resname="24708F4B642DBF45AE75B4AD78A8E959" translate="no">
+          <source>TBOX_RECL</source>
+        </trans-unit>
+        <trans-unit id="thm_5" resname="D37E0ECC43E99945A8781FBA3CCEDD74" translate="no">
+          <source>TBOX_SECU</source>
+        </trans-unit>
+        <trans-unit id="thm_6" resname="E4736E3F65342E4192EE062DF67C7A9B" translate="no">
+          <source>TBOX_SEQN</source>
+        </trans-unit>
+        <trans-unit id="thm_7" resname="25EA1628F88EE541847E10FA4556FD23" translate="no">
+          <source>TBOX_MSG</source>
+        </trans-unit>
+        <trans-unit id="thm_8" resname="433295D74E379842B60E8025F5206E9B" translate="no">
+          <source>TBOX_BitOperator</source>
+        </trans-unit>
+        <trans-unit id="thm_9" resname="5E55881B2C9D524798CF05E963BA76F1" translate="no">
+          <source>TBOX_Special_UUID</source>
+        </trans-unit>
+        <trans-unit id="thm_10" resname="F0F92423CBA0C34C8C2C6589CC718356" translate="no">
+          <source>UUID_Reserved</source>
+        </trans-unit>
+        <trans-unit id="thm_11" resname="A49E66B21F85E441BDFF2F7A4F61DA87" translate="no">
+          <source>MDS Nomen Group ID</source>
+        </trans-unit>
+        <trans-unit id="thm_12" resname="2FC59A08C6D2E14F9CCAA49D5ED0F7BC" translate="no">
+          <source>MDS Print Catalogue ID</source>
+        </trans-unit>
+        <trans-unit id="thm_13" resname="642BB2F8331BC64CBCC2AC4ECCC371B4" translate="no">
+          <source>REST Update Report</source>
+        </trans-unit>
+        <trans-unit id="thm_14" resname="579C3C4C53BA544EA8DD74ABEEE9B867" translate="no">
+          <source>TBOX_JSON_Titel</source>
+        </trans-unit>
+        <trans-unit id="thm_15" resname="CA017A257B3E6A4C92216A63B428B53F" translate="no">
+          <source>PA_OutsideCallEvt_Action</source>
+        </trans-unit>
+        <trans-unit id="thm_16" resname="48455FBA8BF19145B46C94A00572D5D9" translate="no">
+          <source>Patient Wizard New</source>
+        </trans-unit>
+        <trans-unit id="thm_17" resname="F5D23D33530D2A4598E2A4C3AF5E3633" translate="no">
+          <source>Report_FolderPath</source>
+        </trans-unit>
+        <trans-unit id="thm_18" resname="9096330D9EC60C4EB34E2F2E5BF92FFC" translate="no">
+          <source>Report ID &amp; Name</source>
+        </trans-unit>
+        <trans-unit id="thm_19" resname="789AC2ADA03CA3449A7778F829146B42" translate="no">
+          <source>PPR_DSGVO</source>
+        </trans-unit>
+        <trans-unit id="thm_20" resname="FB651980FEF4D04991C318011C7BCC25" translate="no">
+          <source>Diagnosis ID</source>
+        </trans-unit>
+        <trans-unit id="thm_21" resname="933F0D6E8C41804D945EF598EE48BA4F" translate="no">
+          <source>SF_List Box</source>
+        </trans-unit>
+        <trans-unit id="thm_22" resname="0125382F3A656042AEADBB0BAA85A5D7" translate="no">
+          <source>SF FTP Drug</source>
+        </trans-unit>
+        <trans-unit id="thm_23" resname="9A85ACE462A0C841AC2CB2129A56931B" translate="no">
+          <source>SF Semaphore</source>
+        </trans-unit>
+        <trans-unit id="thm_24" resname="BF999B8896FEFA478299FBF24281A0A9" translate="no">
+          <source>TBOX_IO</source>
+        </trans-unit>
+        <trans-unit id="thm_25" resname="6C461DD1D5DE5D46A1AC8B169B9D41F1" translate="no">
+          <source>PrescriptionKind</source>
+        </trans-unit>
+        <trans-unit id="thm_26" resname="A18530E40B5B7F4EA35D73F9AE8E0712" translate="no">
+          <source>Exam_Action</source>
+        </trans-unit>
+        <trans-unit id="thm_27" resname="0C4F56409DE3874EA478C899C98A3A09" translate="no">
+          <source>Exam_Delete_Error</source>
+        </trans-unit>
+        <trans-unit id="thm_28" resname="DAA55C449D05E64FA2C7BE9AC2E6D4FC" translate="no">
+          <source>BRES_KindOfRecord</source>
+        </trans-unit>
+      </group>
+
+      
+<!--constants-->
+
+      <group d4:groupName="C4B4FA6D8D013043B8E233F2A0245B84" restype="x-4DK#">
+        <trans-unit d4:value="0" id="k_1">
+          <source>MDS_BASIC</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_2">
+          <source>MDS_CLD_Light</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_3">
+          <source>MDS_CLD</source>
+        </trans-unit>
+        <trans-unit d4:value="3" id="k_4">
+          <source>MDS_PMM</source>
+        </trans-unit>
+        <trans-unit d4:value="4" id="k_5">
+          <source>MDS_PMM_Light</source>
+        </trans-unit>
+        <trans-unit d4:value="5" id="k_6">
+          <source>MDS_EPS_Light</source>
+        </trans-unit>
+        <trans-unit d4:value="6" id="k_7">
+          <source>MDS_EPS</source>
+        </trans-unit>
+        <trans-unit d4:value="7" id="k_8">
+          <source>MDS_LABOR</source>
+        </trans-unit>
+        <trans-unit d4:value="8" id="k_9">
+          <source>MDS_PRAXIS</source>
+        </trans-unit>
+        <trans-unit d4:value="9" id="k_10">
+          <source>MDS_NARMD</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="523DBF98AB00FC478D6E4DA3CC36E66B" restype="x-4DK#">
+        <trans-unit d4:value="7" id="k_11">
+          <source>MDS_PATIENT</source>
+        </trans-unit>
+        <trans-unit d4:value="11" id="k_12">
+          <source>MDS_SESSION</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="F6BCF7765C8A0E42AB28D47C5A22A733" restype="x-4DK#">
+        <trans-unit d4:value="0" id="k_13">
+          <source>MDS_Center_softFACT_0</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_14">
+          <source>MDS_Center_softFACT_1</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_15">
+          <source>MDS_Center_ARGE_PM</source>
+        </trans-unit>
+        <trans-unit d4:value="3" id="k_16">
+          <source>MDS_Center_ARGE_Defi</source>
+        </trans-unit>
+        <trans-unit d4:value="4" id="k_17">
+          <source>MDS_Center_ARGE_AGIK</source>
+        </trans-unit>
+        <trans-unit d4:value="5" id="k_18">
+          <source>MDS_Center_ARGE_ECHO</source>
+        </trans-unit>
+        <trans-unit d4:value="6" id="k_19">
+          <source>MDS_Center_ARGE_EPS</source>
+        </trans-unit>
+        <trans-unit d4:value="7" id="k_20">
+          <source>MDS_Center_ARGE_Holter</source>
+        </trans-unit>
+        <trans-unit d4:value="10" id="k_21">
+          <source>MDS_Center_WSP</source>
+        </trans-unit>
+        <trans-unit d4:value="11" id="k_22">
+          <source>MDS_Center_AKH_Wien</source>
+        </trans-unit>
+        <trans-unit d4:value="12" id="k_23">
+          <source>MDS_Center_AKH_Graz</source>
+        </trans-unit>
+        <trans-unit d4:value="13" id="k_24">
+          <source>MDS_Center_Hanusch</source>
+        </trans-unit>
+        <trans-unit d4:value="14" id="k_25">
+          <source>MDS_Center_KirchKrems</source>
+        </trans-unit>
+        <trans-unit d4:value="15" id="k_26">
+          <source>MDS_Center_Lainz</source>
+        </trans-unit>
+        <trans-unit d4:value="16" id="k_27">
+          <source>MDS_Center_Rudolfstiftung</source>
+        </trans-unit>
+        <trans-unit d4:value="17" id="k_28">
+          <source>MDS_Center_Mistelbach</source>
+        </trans-unit>
+        <trans-unit d4:value="18" id="k_29">
+          <source>MDS_Center_Scheibbs</source>
+        </trans-unit>
+        <trans-unit d4:value="19" id="k_30">
+          <source>MDS_Center_StPölten</source>
+        </trans-unit>
+        <trans-unit d4:value="20" id="k_31">
+          <source>MDS_Center_WrNeustadtI</source>
+        </trans-unit>
+        <trans-unit d4:value="21" id="k_32">
+          <source>MDS_Center_Zwettl</source>
+        </trans-unit>
+        <trans-unit d4:value="22" id="k_33">
+          <source>MDS_Center_BHS_Linz</source>
+        </trans-unit>
+        <trans-unit d4:value="23" id="k_34">
+          <source>MDS_Center_Steyr</source>
+        </trans-unit>
+        <trans-unit d4:value="24" id="k_35">
+          <source>MDS_Center_Vöcklabruck</source>
+        </trans-unit>
+        <trans-unit d4:value="25" id="k_36">
+          <source>MDS_Center_BruckMur</source>
+        </trans-unit>
+        <trans-unit d4:value="26" id="k_37">
+          <source>MDS_Center_Elisabethinen_Linz</source>
+        </trans-unit>
+        <trans-unit d4:value="27" id="k_38">
+          <source>MDS_Center_AKH_Linz</source>
+        </trans-unit>
+        <trans-unit d4:value="28" id="k_39">
+          <source>MDS_Center_LKA_SalzburgI</source>
+        </trans-unit>
+        <trans-unit d4:value="29" id="k_40">
+          <source>MDS_Center_LKA_SalzburgII</source>
+        </trans-unit>
+        <trans-unit d4:value="30" id="k_41">
+          <source>MDS_Center_BHB_Salzburg</source>
+        </trans-unit>
+        <trans-unit d4:value="31" id="k_42">
+          <source>MDS_Center_AKH_Innsbruck</source>
+        </trans-unit>
+        <trans-unit d4:value="32" id="k_43">
+          <source>MDS_Center_Sierning</source>
+        </trans-unit>
+        <trans-unit d4:value="33" id="k_44">
+          <source>MDS_Center_LKA_Feldkirch</source>
+        </trans-unit>
+        <trans-unit d4:value="34" id="k_45">
+          <source>MDS_Center_LKH_KlagenfurtII</source>
+        </trans-unit>
+        <trans-unit d4:value="35" id="k_46">
+          <source>MDS_Center_Uni_GrazChirI</source>
+        </trans-unit>
+        <trans-unit d4:value="36" id="k_47">
+          <source>MDS_Center_Uni_GrazInterneI</source>
+        </trans-unit>
+        <trans-unit d4:value="37" id="k_48">
+          <source>MDS_Center_Oberpullendorf</source>
+        </trans-unit>
+        <trans-unit d4:value="38" id="k_49">
+          <source>MDS_Center_Hainburg</source>
+        </trans-unit>
+        <trans-unit d4:value="39" id="k_50">
+          <source>MDS_Center_BHS_Ried</source>
+        </trans-unit>
+        <trans-unit d4:value="40" id="k_51">
+          <source>MDS_Center_Schärding</source>
+        </trans-unit>
+        <trans-unit d4:value="41" id="k_52">
+          <source>MDS_Center_Horn</source>
+        </trans-unit>
+        <trans-unit d4:value="42" id="k_53">
+          <source>MDS_Center_KremsDonau</source>
+        </trans-unit>
+        <trans-unit d4:value="43" id="k_54">
+          <source>MDS_Center_Schladming</source>
+        </trans-unit>
+        <trans-unit d4:value="44" id="k_55">
+          <source>MDS_Center_MariaZell</source>
+        </trans-unit>
+        <trans-unit d4:value="45" id="k_56">
+          <source>MDS_Center_Mittersill</source>
+        </trans-unit>
+        <trans-unit d4:value="46" id="k_57">
+          <source>MDS_Center_Amstetten</source>
+        </trans-unit>
+        <trans-unit d4:value="47" id="k_58">
+          <source>MDS_Center_WaidhofenYbbs</source>
+        </trans-unit>
+        <trans-unit d4:value="48" id="k_59">
+          <source>MDS_Center_BHB_Wien</source>
+        </trans-unit>
+        <trans-unit d4:value="49" id="k_60">
+          <source>MDS_Center_KFJ</source>
+        </trans-unit>
+        <trans-unit d4:value="50" id="k_61">
+          <source>MDS_Center_Grieskirchen</source>
+        </trans-unit>
+        <trans-unit d4:value="51" id="k_62">
+          <source>MDS_Center_WaidhofenThaya</source>
+        </trans-unit>
+        <trans-unit d4:value="52" id="k_63">
+          <source>MDS_Center_BadIschl</source>
+        </trans-unit>
+        <trans-unit d4:value="53" id="k_64">
+          <source>MDS_Center_Floridsdorf</source>
+        </trans-unit>
+        <trans-unit d4:value="54" id="k_65">
+          <source>MDS_Center_Mödling</source>
+        </trans-unit>
+        <trans-unit d4:value="55" id="k_66">
+          <source>MDS_Center_BHS_Melk</source>
+        </trans-unit>
+        <trans-unit d4:value="56" id="k_67">
+          <source>MDS_Center_KES</source>
+        </trans-unit>
+        <trans-unit d4:value="57" id="k_68">
+          <source>MDS_Center_Stockerau</source>
+        </trans-unit>
+        <trans-unit d4:value="58" id="k_69">
+          <source>MDS_Center_Rohrbach</source>
+        </trans-unit>
+        <trans-unit d4:value="59" id="k_70">
+          <source>MDS_Center_SMZ_Ost</source>
+        </trans-unit>
+        <trans-unit d4:value="60" id="k_71">
+          <source>MDS_Center_GHeiland</source>
+        </trans-unit>
+        <trans-unit d4:value="61" id="k_72">
+          <source>MDS_Center_Tulln</source>
+        </trans-unit>
+        <trans-unit d4:value="62" id="k_73">
+          <source>MDS_Center_BHB_Eisenstadt</source>
+        </trans-unit>
+        <trans-unit d4:value="63" id="k_74">
+          <source>MDS_Center_Leoben</source>
+        </trans-unit>
+        <trans-unit d4:value="64" id="k_75">
+          <source>MDS_Center_Schallerbach</source>
+        </trans-unit>
+        <trans-unit d4:value="65" id="k_76">
+          <source>MDS_Center_WrNeustadtII</source>
+        </trans-unit>
+        <trans-unit d4:value="66" id="k_77">
+          <source>MDS_Center_Oberwart</source>
+        </trans-unit>
+        <trans-unit d4:value="67" id="k_78">
+          <source>MDS_Center_Fürstenfeld</source>
+        </trans-unit>
+        <trans-unit d4:value="68" id="k_79">
+          <source>MDS_Center_Klosterneuburg</source>
+        </trans-unit>
+        <trans-unit d4:value="69" id="k_80">
+          <source>MDS_Center_Knittelfeld</source>
+        </trans-unit>
+        <trans-unit d4:value="70" id="k_81">
+          <source>MDS_Center_Lienz</source>
+        </trans-unit>
+        <trans-unit d4:value="71" id="k_82">
+          <source>MDS_Center_Mürzzuschlag</source>
+        </trans-unit>
+        <trans-unit d4:value="72" id="k_83">
+          <source>MDS_Center_Wolfsberg</source>
+        </trans-unit>
+        <trans-unit d4:value="73" id="k_84">
+          <source>MDS_Center_Hollabrunn</source>
+        </trans-unit>
+        <trans-unit d4:value="74" id="k_85">
+          <source>MDS_Center_Villach</source>
+        </trans-unit>
+        <trans-unit d4:value="75" id="k_86">
+          <source>MDS_Center_Grossgmain</source>
+        </trans-unit>
+        <trans-unit d4:value="76" id="k_87">
+          <source>MDS_Center_Hochegg</source>
+        </trans-unit>
+        <trans-unit d4:value="77" id="k_88">
+          <source>MDS_Center_StRadegund</source>
+        </trans-unit>
+        <trans-unit d4:value="78" id="k_89">
+          <source>MDS_Center_Confraternität</source>
+        </trans-unit>
+        <trans-unit d4:value="79" id="k_90">
+          <source>MDS_Center_Uni_GrazInterneII</source>
+        </trans-unit>
+        <trans-unit d4:value="80" id="k_91">
+          <source>MDS_Center_Freistadt</source>
+        </trans-unit>
+        <trans-unit d4:value="81" id="k_92">
+          <source>MDS_Center_Sophien_Wien</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="24708F4B642DBF45AE75B4AD78A8E959" restype="x-4DK#">
+        <trans-unit d4:value="1" id="k_93">
+          <source>TBOX_RECL_ReadOnly</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_94">
+          <source>TBOX_RECL_ReadWrite</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_95">
+          <source>TBOX_RECL_Cancel</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_96">
+          <source>TBOX_RECL_NoCancel</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="D37E0ECC43E99945A8781FBA3CCEDD74" restype="x-4DK#">
+        <trans-unit d4:value="-1" id="k_97">
+          <source>TBOX_SECU_Designer</source>
+        </trans-unit>
+        <trans-unit d4:value="-2" id="k_98">
+          <source>TBOX_SECU_Administrator</source>
+        </trans-unit>
+        <trans-unit d4:value="6" id="k_99">
+          <source>TBOX_SECU_ObjCount</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_100">
+          <source>TBOX_SECU_ObjModul</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_101">
+          <source>TBOX_SECU_ObjForm</source>
+        </trans-unit>
+        <trans-unit d4:value="3" id="k_102">
+          <source>TBOX_SECU_ObjButton</source>
+        </trans-unit>
+        <trans-unit d4:value="4" id="k_103">
+          <source>TBOX_SECU_ObjMenu</source>
+        </trans-unit>
+        <trans-unit d4:value="5" id="k_104">
+          <source>TBOX_SECU_ObjTable</source>
+        </trans-unit>
+        <trans-unit d4:value="6" id="k_105">
+          <source>TBOX_SECU_ObjField</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_106">
+          <source>TBOX_SECU_ObjAccRead</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_107">
+          <source>TBOX_SECU_ObjAccModify</source>
+        </trans-unit>
+        <trans-unit d4:value="4" id="k_108">
+          <source>TBOX_SECU_ObjAccDelete</source>
+        </trans-unit>
+        <trans-unit d4:value="8" id="k_109">
+          <source>TBOX_SECU_ObjAccNew</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_110">
+          <source>TBOX_SECU_ObjAccOwn</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_111">
+          <source>TBOX_SECU_ObjAccForeign</source>
+        </trans-unit>
+        <trans-unit d4:value="32767" id="k_112">
+          <source>TBOX_SECU_ObjAccAll</source>
+        </trans-unit>
+        <trans-unit d4:value="32768:L" id="k_113">
+          <source>TBOX_SECU_Group_Reception</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="E4736E3F65342E4192EE062DF67C7A9B" restype="x-4DK#">
+        <trans-unit d4:value="TBOX_SEQN" id="k_114">
+          <source>TBOX_SEQN_PROCNAME</source>
+        </trans-unit>
+        <trans-unit d4:value="0" id="k_115">
+          <source>TBOX_SEQN_ACTION_IDLE</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_116">
+          <source>TBOX_SEQN_ACTION_GETNR</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_117">
+          <source>TBOX_SEQN_ACTION_QUIT</source>
+        </trans-unit>
+        <trans-unit d4:value="3" id="k_118">
+          <source>TBOX_SEQN_ACTION_SETNR</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="25EA1628F88EE541847E10FA4556FD23" restype="x-4DK#">
+        <trans-unit d4:value="TBOX_Msg_New" id="k_119">
+          <source>TBOX_Msg_New</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_All" id="k_120">
+          <source>TBOX_Msg_All</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Select" id="k_121">
+          <source>TBOX_Msg_Select</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Search" id="k_122">
+          <source>TBOX_Msg_Search</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Sort" id="k_123">
+          <source>TBOX_Msg_Sort</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Delete" id="k_124">
+          <source>TBOX_Msg_Delete</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Print" id="k_125">
+          <source>TBOX_Msg_Print</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_First" id="k_126">
+          <source>TBOX_Msg_First</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Prev" id="k_127">
+          <source>TBOX_Msg_Prev</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Next" id="k_128">
+          <source>TBOX_Msg_Next</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Last" id="k_129">
+          <source>TBOX_Msg_Last</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Cancel" id="k_130">
+          <source>TBOX_Msg_Cancel</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_OK" id="k_131">
+          <source>TBOX_Msg_OK</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Close" id="k_132">
+          <source>TBOX_Msg_Close</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Output" id="k_133">
+          <source>TBOX_Msg_Output</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Input" id="k_134">
+          <source>TBOX_Msg_Input</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_NotFirst" id="k_135">
+          <source>TBOX_Msg_NotFirst</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_MSG_NotLast" id="k_136">
+          <source>TBOX_MSG_NotLast</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_FrontMost" id="k_137">
+          <source>TBOX_Msg_FrontMost</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_NotFrontMost" id="k_138">
+          <source>TBOX_Msg_NotFrontMost</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_DisableAll" id="k_139">
+          <source>TBOX_Msg_DisableAll</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Modify" id="k_140">
+          <source>TBOX_Msg_Modify</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_SubSet" id="k_141">
+          <source>TBOX_Msg_SubSet</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_Set" id="k_142">
+          <source>TBOX_Msg_Set</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_PageSetUp" id="k_143">
+          <source>TBOX_Msg_PageSetUp</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_PatientHereToday" id="k_144">
+          <source>TBOX_Msg_PatientHereToday</source>
+        </trans-unit>
+        <trans-unit d4:value="MultiClient_Update_Toolbar:S" id="k_145">
+          <source>TBOX_Msg_MC_UpdtToolBar</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_GetToolbarHeight#" id="k_146">
+          <source>TBOX_Msg_GetToolbarHeight</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_WaitingAnswer_" id="k_147">
+          <source>TBOX_Msg_WaitingAnswer</source>
+        </trans-unit>
+        <trans-unit d4:value="TBOX_Msg_PA_SetInputForm" id="k_148">
+          <source>TBOX_Msg_PA_SetInputForm</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="433295D74E379842B60E8025F5206E9B" restype="x-4DK#">
+        <trans-unit d4:value="2" id="k_149">
+          <source>TBOX_BIT_Clear</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_150">
+          <source>TBOX_BIT_Set</source>
+        </trans-unit>
+        <trans-unit d4:value="3" id="k_151">
+          <source>TBOX_BIT_Test</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="5E55881B2C9D524798CF05E963BA76F1" restype="x-4DK#">
+        <trans-unit d4:value="20000000000000000000000000000001:S" id="k_152">
+          <source>UUID_TBOXJSON_Report_REST</source>
+        </trans-unit>
+        <trans-unit d4:value="00000000000000000000000000000000:S" id="k_153">
+          <source>UUID_NULL</source>
+        </trans-unit>
+        <trans-unit d4:value="20000000000000000000000000000002:S" id="k_154">
+          <source>UUID_TBOXJSON_WebServer</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="F0F92423CBA0C34C8C2C6589CC718356" restype="x-4DK#">
+        <trans-unit d4:value="000000000000000000000000001FFFFF:S" id="k_155">
+          <source>RP_AvailableForAll_Installation</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="A49E66B21F85E441BDFF2F7A4F61DA87" restype="x-4DK#">
+        <trans-unit d4:value="780" id="k_156">
+          <source>NomenGroup_DA_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="790" id="k_157">
+          <source>NomenGroup_DV_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="810" id="k_158">
+          <source>NomenGroup_LAC_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="820" id="k_159">
+          <source>NomenGroup_FRU_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="830" id="k_160">
+          <source>NomenGroup_APN_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="840" id="k_161">
+          <source>NomenGroup_SPI_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="850" id="k_162">
+          <source>NomenGroup_PVE_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="860" id="k_163">
+          <source>NomenGroup_PDO_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="870" id="k_164">
+          <source>NomenGroup_EBD_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="880" id="k_165">
+          <source>NomenGroup_ERG_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="775" id="k_166">
+          <source>NomenGroup_LTE_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="900" id="k_167">
+          <source>NomenGroup_RLT_Indication</source>
+        </trans-unit>
+        <trans-unit d4:value="920" id="k_168">
+          <source>NomenGroup_SHE_Indication</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="2FC59A08C6D2E14F9CCAA49D5ED0F7BC" restype="x-4DK#">
+        <trans-unit d4:value="1050:L" id="k_169">
+          <source>ABS_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1090" id="k_170">
+          <source>APN_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1010" id="k_171">
+          <source>CDO_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1040" id="k_172">
+          <source>COL_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1111" id="k_173">
+          <source>DUA_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1112" id="k_174">
+          <source>DUV_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1060" id="k_175">
+          <source>ECH_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1100" id="k_176">
+          <source>FRU_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1030" id="k_177">
+          <source>GAS_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1110" id="k_178">
+          <source>LAC_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1070" id="k_179">
+          <source>LTE_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="7350" id="k_180">
+          <source>NUK_Bone_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="7320" id="k_181">
+          <source>NUK_Heart_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="7340" id="k_182">
+          <source>NUK_Kidney_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="7330" id="k_183">
+          <source>NUK_Lung_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="7360" id="k_184">
+          <source>NUK_Other_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="7310" id="k_185">
+          <source>NUK_SD_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1020" id="k_186">
+          <source>PDO_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1120" id="k_187">
+          <source>PVE_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1080" id="k_188">
+          <source>SD_Catalogue_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1200:L" id="k_189">
+          <source>SHE_Catalogue_ID</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="642BB2F8331BC64CBCC2AC4ECCC371B4" restype="x-4DK#">
+        <trans-unit d4:value="Authorization_response" id="k_190">
+          <source>REST_Authorization_response</source>
+        </trans-unit>
+        <trans-unit d4:value="err_id" id="k_191">
+          <source>REST_err_id</source>
+        </trans-unit>
+        <trans-unit d4:value="err_txt" id="k_192">
+          <source>REST_err_txt</source>
+        </trans-unit>
+        <trans-unit d4:value="-1002" id="k_193">
+          <source>REST_ErrId_BadVersion</source>
+        </trans-unit>
+        <trans-unit d4:value="0" id="k_194">
+          <source>REST_ErrID_NoErr</source>
+        </trans-unit>
+        <trans-unit d4:value="-1003" id="k_195">
+          <source>REST_ErrID_WrongNbReports</source>
+        </trans-unit>
+        <trans-unit d4:value="-1000" id="k_196">
+          <source>REST_ErrID_WrongStatusCreate</source>
+        </trans-unit>
+        <trans-unit d4:value="-1001" id="k_197">
+          <source>REST_ErrID_WrongStatusUpdate</source>
+        </trans-unit>
+        <trans-unit d4:value="Wrong version." id="k_198">
+          <source>REST_ErrTxt_BadVersion</source>
+        </trans-unit>
+        <trans-unit d4:value=":S" id="k_199">
+          <source>REST_ErrTxt_NoErr</source>
+        </trans-unit>
+        <trans-unit d4:value="Wrong number of reports ({0})" id="k_200">
+          <source>REST_ErrTxt_WrongNbReports</source>
+        </trans-unit>
+        <trans-unit d4:value="Wrong report status. Can not be created" id="k_201">
+          <source>REST_ErrTxt_WrongStatusCreate</source>
+        </trans-unit>
+        <trans-unit d4:value="Wrong report status. Can not be updated" id="k_202">
+          <source>REST_ErrTxt_WrongStatusUpdate</source>
+        </trans-unit>
+        <trans-unit d4:value="installation_id" id="k_203">
+          <source>REST_Installation_id</source>
+        </trans-unit>
+        <trans-unit d4:value="kind" id="k_204">
+          <source>REST_Kind</source>
+        </trans-unit>
+        <trans-unit d4:value="product_version" id="k_205">
+          <source>REST_Product_Version</source>
+        </trans-unit>
+        <trans-unit d4:value="report" id="k_206">
+          <source>REST_Report</source>
+        </trans-unit>
+        <trans-unit d4:value="status" id="k_207">
+          <source>REST_Status</source>
+        </trans-unit>
+        <trans-unit d4:value="4duser" id="k_208">
+          <source>REST_UPDT_4DUser</source>
+        </trans-unit>
+        <trans-unit d4:value="process_name" id="k_209">
+          <source>REST_UPDT_Processname</source>
+        </trans-unit>
+        <trans-unit d4:value="process_id" id="k_210">
+          <source>REST_UPDT_ProcID</source>
+        </trans-unit>
+        <trans-unit d4:value="session_user" id="k_211">
+          <source>REST_UPDT_Sessionuser</source>
+        </trans-unit>
+        <trans-unit d4:value="status:S" id="k_212">
+          <source>REST_UPDT_Status</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_213">
+          <source>REST_UPDT_Status_Locked</source>
+        </trans-unit>
+        <trans-unit d4:value="4" id="k_214">
+          <source>REST_UPDT_Status_MoreThanOne</source>
+        </trans-unit>
+        <trans-unit d4:value="3" id="k_215">
+          <source>REST_UPDT_Status_NotFound</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_216">
+          <source>REST_UPDT_Status_OK</source>
+        </trans-unit>
+        <trans-unit d4:value="version" id="k_217">
+          <source>REST_Version</source>
+        </trans-unit>
+        <trans-unit d4:value="RP_setting_content" id="k_218">
+          <source>REST_ReportSettingContent</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="579C3C4C53BA544EA8DD74ABEEE9B867" restype="x-4DK#">
+        <trans-unit d4:value="PreferenciesPraxisModules:S" id="k_219">
+          <source>TBOX_JSON_ModuleAvailable</source>
+        </trans-unit>
+        <trans-unit d4:value="PPR_DGSVO_DefaultList:S" id="k_220">
+          <source>TBOX_JSON_PPR_DGSVO_DefaultList</source>
+        </trans-unit>
+        <trans-unit d4:value="PPR_DGSVO_List" id="k_221">
+          <source>TBOX_JSON_PPR_DGSVO_List</source>
+        </trans-unit>
+        <trans-unit d4:value="WL_ModulesOnWaitingList" id="k_222">
+          <source>TBOX_JSON_ModulesOnWaitingList</source>
+        </trans-unit>
+        <trans-unit d4:value="WL_CustomEntryOnWaitingList" id="k_223">
+          <source>TBOX_JSON_CustomOnWaitingLst</source>
+        </trans-unit>
+        <trans-unit d4:value="WL_CustomIconsOnWaitingList" id="k_224">
+          <source>TBOX_JSON_CustomIconsWaitingLst</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="CA017A257B3E6A4C92216A63B428B53F" restype="x-4DK#">
+        <trans-unit d4:value="100" id="k_225">
+          <source>PA_oce_Action_NewEntry</source>
+        </trans-unit>
+        <trans-unit d4:value="524289" id="k_226">
+          <source>InsideEvent_OnDrop_NotUsed</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="48455FBA8BF19145B46C94A00572D5D9" restype="x-4DK#">
+        <trans-unit d4:value="1" id="k_227">
+          <source>PAW_Action_New</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_228">
+          <source>PAW_Action_Select</source>
+        </trans-unit>
+        <trans-unit d4:value="-1" id="k_229">
+          <source>PAW_Action_Cancel</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="F5D23D33530D2A4598E2A4C3AF5E3633" restype="x-4DK#">
+        <trans-unit d4:value="{LOCAL}:S" id="k_230">
+          <source>Report_Path_Local</source>
+        </trans-unit>
+        <trans-unit d4:value="{REMOTE}:S" id="k_231">
+          <source>Report_Path_Remote</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="9096330D9EC60C4EB34E2F2E5BF92FFC" restype="x-4DK#">
+        <trans-unit d4:value="20001:L" id="k_232">
+          <source>Report_CashReport_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Rechnungen:S" id="k_233">
+          <source>Report_CashReport_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="32" id="k_234">
+          <source>RP_Referral_Private_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Überweisung Privat" id="k_235">
+          <source>RP_Referral_Private_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="31" id="k_236">
+          <source>RP_Referral_Public_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Überweisung" id="k_237">
+          <source>RP_Referral_Public_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="20000" id="k_238">
+          <source>RP_Invoice_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Faktura" id="k_239">
+          <source>RP_Invoice_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="42" id="k_240">
+          <source>RP_MR_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="MR" id="k_241">
+          <source>RP_MR_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="41" id="k_242">
+          <source>RP_CR_or_CRAndMR_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="CR oder CT und MR" id="k_243">
+          <source>RP_CR_or_CRAndMR_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="40" id="k_244">
+          <source>RP_XRay_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Röntgen" id="k_245">
+          <source>RP_XRay_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="50" id="k_246">
+          <source>RP_ReferralLaborMedAnalyse_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Laborzuweisung" id="k_247">
+          <source>RP_ReferralLaborMedAnalyse_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="21" id="k_248">
+          <source>RP_Recipe_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Rezept" id="k_249">
+          <source>RP_Recipe_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="Physikalische Verordnung" id="k_250">
+          <source>RP_PhysicPrescriptionAuth_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="90" id="k_251">
+          <source>RP_PhysicPrescriptionAuth_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Heilbehelfe und Hilfesmittel" id="k_252">
+          <source>RP_PrescitionAuthMedAids_Name</source>
+        </trans-unit>
+        <trans-unit d4:value="91" id="k_253">
+          <source>RP_PrescitionAuthMedAids_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="15" id="k_254">
+          <source>RP_RegulationPlanDrug_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Verordnungsplan" id="k_255">
+          <source>RP_RegulationPlanDrug_Name</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="789AC2ADA03CA3449A7778F829146B42" restype="x-4DK#">
+        <trans-unit d4:value="Einwilligungserklärung" id="k_256">
+          <source>DSGVO_Consent</source>
+        </trans-unit>
+        <trans-unit d4:value="00000000000000000000000100000001:S" id="k_257">
+          <source>DSGVO_Consent_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Bevollmächtigung für die Abholung von ärztlichen Befunden" id="k_258">
+          <source>DSGVO_AuthMedResult</source>
+        </trans-unit>
+        <trans-unit d4:value="00000000000000000000000100000002:S" id="k_259">
+          <source>DSGVO_AuthMedResult_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="Bevollmächtigung für die Abholung von Rezepten" id="k_260">
+          <source>DSGVO_AuthRecipes</source>
+        </trans-unit>
+        <trans-unit d4:value="00000000000000000000000100000003:S" id="k_261">
+          <source>DSGVO_AuthRecipes_ID</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="k_262">
+          <source>DSGVO_Consent_DocEnabled</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_263">
+          <source>DSGVO_AuthMedResult_DocEnabled</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_264">
+          <source>DSGVO_AuthRecipes_DocEnabled</source>
+        </trans-unit>
+        <trans-unit d4:value="DSGVO_Consent_DocList" id="k_265">
+          <source>DSGVO_Consent_DocList</source>
+        </trans-unit>
+        <trans-unit d4:value="DSGVO_AuthMedResult_DocList" id="k_266">
+          <source>DSGVO_AuthMedResult_DocList</source>
+        </trans-unit>
+        <trans-unit d4:value="DSGVO_AuthRecipes_DocList" id="k_267">
+          <source>DSGVO_AuthRecipes_DocList</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="FB651980FEF4D04991C318011C7BCC25" restype="x-4DK#">
+        <trans-unit d4:value="4000:L" id="k_268">
+          <source>Diagnosis_Hospitalisation</source>
+        </trans-unit>
+        <trans-unit d4:value="2000:L" id="k_269">
+          <source>Diagnosis_Earlier_Illness</source>
+        </trans-unit>
+        <trans-unit d4:value="1000:L" id="k_270">
+          <source>Diagnosis_Children_s_diseases</source>
+        </trans-unit>
+        <trans-unit d4:value="3000" id="k_271">
+          <source>Diagnosis_ContinuousMedication</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="933F0D6E8C41804D945EF598EE48BA4F" restype="x-4DK#">
+        <trans-unit d4:value="valueType:S" id="k_272">
+          <source>ListBox_valueType</source>
+        </trans-unit>
+        <trans-unit d4:value="saveAs" id="k_273">
+          <source>ListBox_saveAs</source>
+        </trans-unit>
+        <trans-unit d4:value="value" id="k_274">
+          <source>ListBox_value</source>
+        </trans-unit>
+        <trans-unit d4:value="requiredListReference" id="k_275">
+          <source>ListBox_requiredListReference</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="0125382F3A656042AEADBB0BAA85A5D7" restype="x-4DK#">
+        <trans-unit d4:value="/MDS-Praxis/Drug/:S" id="k_276">
+          <source>FTP_DRUG_Path</source>
+        </trans-unit>
+        <trans-unit d4:value="drug.cast:S" id="k_277">
+          <source>FTP_DRUG_CastFileName</source>
+        </trans-unit>
+        <trans-unit d4:value="version:S" id="k_278">
+          <source>DRUG_JSON_version</source>
+        </trans-unit>
+        <trans-unit d4:value="file_name" id="k_279">
+          <source>DRUG_JSON_FileName</source>
+        </trans-unit>
+        <trans-unit d4:value="update_date" id="k_280">
+          <source>DRUG_JSON_update_date</source>
+        </trans-unit>
+        <trans-unit d4:value="update_time:S" id="k_281">
+          <source>DRUG_JSON_update_time</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="9A85ACE462A0C841AC2CB2129A56931B" restype="x-4DK#">
+        <trans-unit d4:value="Drug_Updt_Action" id="k_282">
+          <source>SEM DRUG Update Action</source>
+        </trans-unit>
+        <trans-unit d4:value="DRUG_Update_IsRunning" id="k_283">
+          <source>SEM DRUG Update IsRunning</source>
+        </trans-unit>
+        <trans-unit d4:value="SEM_CS_SwitchIntallation" id="k_284">
+          <source>SEM_CS_SwitchInstallation</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="BF999B8896FEFA478299FBF24281A0A9" restype="x-4DK#">
+        <trans-unit d4:value="10" id="k_285">
+          <source>TBOX_IO_IsAVolume</source>
+        </trans-unit>
+        <trans-unit d4:value="1" id="k_286">
+          <source>TBOX_IO_IsADocument</source>
+        </trans-unit>
+        <trans-unit d4:value="0" id="k_287">
+          <source>TBOX_IO_IsFolder</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="6C461DD1D5DE5D46A1AC8B169B9D41F1" restype="x-4DK#">
+        <trans-unit d4:value="0" id="k_288">
+          <source>Prescription_Regular</source>
+        </trans-unit>
+        <trans-unit d4:value="10" id="k_289">
+          <source>Prescription_Magistraler</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="A18530E40B5B7F4EA35D73F9AE8E0712" restype="x-4DK#">
+        <trans-unit d4:value="1" id="k_290">
+          <source>Exam_Action_Copy</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_291">
+          <source>Exam_Action_Move</source>
+        </trans-unit>
+        <trans-unit d4:value="3" id="k_292">
+          <source>Exam_Action_Delete</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="0C4F56409DE3874EA478C899C98A3A09" restype="x-4DK#">
+        <trans-unit d4:value="1" id="k_293">
+          <source>PX_NoDelete_PositionIsCharged</source>
+        </trans-unit>
+        <trans-unit d4:value="2" id="k_294">
+          <source>PX_NoDelete_IsCashRegister</source>
+        </trans-unit>
+        <trans-unit d4:value="4" id="k_295">
+          <source>PX_NoDelete_ConsIsNotEmpty</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="DAA55C449D05E64FA2C7BE9AC2E6D4FC" restype="x-4DK#">
+        <trans-unit d4:value="1" id="k_296">
+          <source>TB_BRES_LaborRecord</source>
+        </trans-unit>
+      </group>
+    </body>
+
+    
+
+  </file>
+
+  
+
+
+</xliff>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+
+  
+
+  
+
+<!--
+
+    Created with 4DPop Constants Editor
+
+  -->
+
+  
+
+  <file datatype="x-4DK#" original="x-undefined" source-language="x-none" target-language="x-none">
+
+    
+
+    <header>
+
+      <prop-group name="4DPop Constant editor">
+
+        <prop prop-type="version">13.0</prop>
+
+      </prop-group>
+
+    </header>
+
+    
+
+    <body>
+
+      
+<!--groups' labels-->
+
+      <group resname="themes">
+        <trans-unit id="thm_1" resname="D99402E7D8F91B429A2E25D5882F55A2" translate="no">
+          <source>New Theme</source>
+        </trans-unit>
+        <trans-unit id="thm_2" resname="9E853E21A7FBE94881DF9902A5C3858C" translate="no">
+          <source>New Theme</source>
+        </trans-unit>
+      </group>
+
+      
+<!--constants-->
+
+      <group d4:groupName="D99402E7D8F91B429A2E25D5882F55A2" restype="x-4DK#">
+        <trans-unit d4:value="helloz" id="k_1">
+          <source>constant 8</source>
+        </trans-unit>
+        <trans-unit d4:value="" id="k_2">
+          <source>constant 9</source>
+        </trans-unit>
+        <trans-unit d4:value="47" id="k_3">
+          <source>constant 10</source>
+        </trans-unit>
+        <trans-unit d4:value="3.7:R" id="k_4">
+          <source>constant 11</source>
+        </trans-unit>
+        <trans-unit d4:value="" id="k_5">
+          <source>Constant 14</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="9E853E21A7FBE94881DF9902A5C3858C" restype="x-4DK#">
+        <trans-unit d4:value="jkkjjkkjjjj" id="k_6">
+          <source>constant 3s</source>
+        </trans-unit>
+        <trans-unit d4:value="jj" id="k_7">
+          <source>constant 4</source>
+        </trans-unit>
+        <trans-unit d4:value="tttzzzgfgf" id="k_8">
+          <source>constant 5</source>
+        </trans-unit>
+        <trans-unit d4:value="0:R" id="k_9">
+          <source>constant 6</source>
+        </trans-unit>
+        <trans-unit d4:value="est windd" id="k_10">
+          <source>constant 7</source>
+        </trans-unit>
+        <trans-unit d4:value="est mac" id="k_11">
+          <source>constant 7</source>
+        </trans-unit>
+        <trans-unit d4:value="" id="k_12">
+          <source>Constant 13</source>
+        </trans-unit>
+      </group>
+    </body>
+
+    
+
+  </file>
+
+  
+
+
+</xliff>

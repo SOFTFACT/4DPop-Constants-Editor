@@ -13,11 +13,14 @@ C_TEXT:C284($4)
 C_LONGINT:C283($Lon_parameters)
 C_TEXT:C284($Dom_constants; $Txt_id; $Txt_label; $Txt_value)
 
+C_TEXT:C284($Txt_Platform)
+
 If (False:C215)
 	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $1)
 	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $2)
 	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $3)
 	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $4)
+	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $5)
 End if 
 
 // ----------------------------------------------------
@@ -30,6 +33,7 @@ If (Asserted:C1132($Lon_parameters>=4; "Missing parameter"))
 	$Txt_value:=$2
 	$Txt_id:=$3
 	$Txt_label:=$4
+	$Txt_Platform:=$5
 	
 Else 
 	
@@ -38,14 +42,27 @@ Else
 End if 
 
 // ----------------------------------------------------
-DOM SET XML ELEMENT VALUE:C868(\
-DOM Create XML element:C865(\
-DOM Create XML element:C865(\
-$Dom_constants; "trans-unit"; \
-"d4:value"; $Txt_value; \
-"id"; $Txt_id); \
-"source"); \
-$Txt_label)
+If (($Txt_Platform="mac") | ($Txt_Platform="win"))
+	DOM SET XML ELEMENT VALUE:C868(\
+		DOM Create XML element:C865(\
+		DOM Create XML element:C865(\
+		$Dom_constants; "trans-unit"; \
+		"d4:value"; $Txt_value; \
+		"id"; $Txt_id; \
+		"d4:includeIf"; $Txt_Platform); \
+		"source"); \
+		$Txt_label)
+Else 
+	// ----------------------------------------------------
+	DOM SET XML ELEMENT VALUE:C868(\
+		DOM Create XML element:C865(\
+		DOM Create XML element:C865(\
+		$Dom_constants; "trans-unit"; \
+		"d4:value"; $Txt_value; \
+		"id"; $Txt_id); \
+		"source"); \
+		$Txt_label)
+End if 
 
 // ----------------------------------------------------
 // End

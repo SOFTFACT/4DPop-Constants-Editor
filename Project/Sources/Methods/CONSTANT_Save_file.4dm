@@ -13,6 +13,7 @@ C_BOOLEAN:C305($Boo_expanded; $Boo_fixed)
 C_LONGINT:C283($Lon_constantId; $Lon_i; $Lon_j; $Lon_parameters; $Lon_themeId; $Lon_UID; $Lon_value; $Lst_buffer; $Lst_constants)
 C_REAL:C285($Num_value)
 C_TEXT:C284($Dom_constants; $Dom_root; $Txt_fileName; $Txt_groupName; $Txt_label; $Txt_type; $Txt_value)
+C_TEXT:C284($Platform)
 
 If (False:C215)
 	C_BOOLEAN:C305(CONSTANT_Save_file; $0)
@@ -101,8 +102,10 @@ If (OK=1)
 						GET LIST ITEM PARAMETER:C985($Lst_constants; $Lon_UID; "fixed"; $Boo_fixed)
 						$Txt_value:=Choose:C955($Boo_fixed; $Txt_value+":"+$Txt_type; $Txt_value)
 						
+						GET LIST ITEM PARAMETER:C985($Lst_constants; $Lon_UID; "d4:includeIf"; $Platform)
+						
 						$Lon_constantId:=$Lon_constantId+1
-						CONSTANT_NEW_CONSTANT($Dom_constants; $Txt_value; "k_"+String:C10($Lon_constantId); $Txt_label)
+						CONSTANT_NEW_CONSTANT($Dom_constants; $Txt_value; "k_"+String:C10($Lon_constantId); $Txt_label; $Platform)
 						
 					End if 
 				End for 
